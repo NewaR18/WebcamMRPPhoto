@@ -1,0 +1,6 @@
+C:\Users\sudip\source\repos\Infodev\Trainee\WebCamPopup\Operation\bin\Debug\Operation.dll
+C:\Users\sudip\source\repos\Infodev\Trainee\WebCamPopup\Operation\bin\Debug\Operation.pdb
+C:\Users\sudip\source\repos\Infodev\Trainee\WebCamPopup\Operation\obj\Debug\Operation.csproj.AssemblyReference.cache
+C:\Users\sudip\source\repos\Infodev\Trainee\WebCamPopup\Operation\obj\Debug\Operation.csproj.CoreCompileInputs.cache
+C:\Users\sudip\source\repos\Infodev\Trainee\WebCamPopup\Operation\obj\Debug\Operation.dll
+C:\Users\sudip\source\repos\Infodev\Trainee\WebCamPopup\Operation\obj\Debug\Operation.pdb
