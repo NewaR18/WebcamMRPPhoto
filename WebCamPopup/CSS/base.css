@@ -1,6 +1,6 @@
 ﻿.modal-dialog {
-    max-width: 750px;
-    max-height: 540px;
+    max-width: 1200px;
+    max-height: 900px;
     margin: 1.75rem auto;
 }
 
@@ -9,23 +9,6 @@ body {
     font-size: 10pt;
 }
 
-table {
-    border: 2px solid #ccc;
-    border-collapse: collapse;
-}
-
-    table th {
-        background-color: #F7F7F7;
-        color: #333;
-        font-weight: bold;
-        height: 40px;
-    }
-
-    table th, table td {
-        padding: 5px;
-        width: 640px;
-        border: 1px solid #ccc;
-    }
 
 .caption {
     color: red;
@@ -34,47 +17,37 @@ table {
     text-align: center;
 }
 
-.box {
-    width: 720px;
-    height: 530px;
-}
 
 .formimage {
     text-align: center;
-    width: 360px;
+    height:auto;
+    max-height:450px;
+    width:450px;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
 }
 
 .formimage2 {
     display: flex;
     justify-content: center;
-    width: 360px;
 }
-
-.tablemain {
-    display: flex;
-    justify-content: center;
-}
-
-.bottom {
-    height: 40px;
-}
-
-#cam {
-    background-color: #012970;
-    color: white;
-    padding: 6px 10px 6px 10px;
-    border: 0px;
-    font-size: 18px;
-    font-family: serif;
-    margin-bottom: 10px;
-}
-
 .open1 {
     display: flex;
     justify-content: center;
+    overflow: hidden;
+    width: 35mm;
+    height: 45mm;
 }
 
 .myownimg4 {
-    width: 350px;
-    height: 450px;
+    margin:0px;
+}
+.makeitMRP {
+    width:80mm;
+    margin: 0px -10mm 0px -10mm;
+}
+.tablemain{
+    display:flex;
+    justify-content:center;
 }

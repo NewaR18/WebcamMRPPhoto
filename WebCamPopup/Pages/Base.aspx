@@ -15,51 +15,37 @@
 <body>
     <div class="mt-5 pt-5">
         <div class="d-flex justify-content-center mt-5 pt-5">
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        <button type="button" id="cam" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
   Take Photo
 </button>
 </div>
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Webcam</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
+      
       <div class="modal-body">
-          <div class="open1">
+          <%--<div class="open1">
                 <input type="button" id="cam" value="Open Camera" />
               <br />
-          </div>
+          </div>--%>
     <div class="tablemain">
-        <table class="box" border="0" cellpadding="0" cellspacing="0">
-        <tr>
-            <th align="center"><u>Live Camera</u></th>
-            <th align="center"><u>Captured Picture</u></th>
-        </tr>
-        <tr>
-            <td><div class="formimage2"><div id="webcam"></div></div></td>
-            <td class="formimage"><img id = "imgCapture" class="myownimg4" /></td>
-           
-        </tr>
-        <tr>
-            <td class="bottom" align = "center">
-                <input type="button" id="btnCapture" value="Capture" />
-            </td>
-            <td class="bottom" align = "center">
-                <input type="button" id="btnUpload" value="Upload" data-dismiss="modal" disabled = "disabled" />
-            </td>
-        </tr>
-        </table>
-        <asp:Label ID="Label1" runat="server" Text="label" Visible="false"></asp:Label>  
+        <div>
+            <div class="formimage2"><div id="webcam"></div></div>
+            <div class="formimage"><img id = "imgCapture" class="myownimg4"/></div>
+            </div>
     </div>
-    
+    <input type="button" id="btnCapture" value="Capture" />
+          <input type="button" id="btnRetake" value="Retake"/>
+          <input type="button" id="btnUpload" value="Upload" data-dismiss="modal"/>
       </div>
     </div>
   </div>
 </div>
+    </div>
+    <div class="makeitcenter" style="display:flex; justify-content:center; margin-top:50px;">
+    <div class="open1">
+        <img border="0" id="displayimage" class="makeitMRP" alt="photo" style="display: none;" />
+    </div>
     </div>
 </body>
 </html>

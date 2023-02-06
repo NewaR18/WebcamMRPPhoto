@@ -149,6 +149,7 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="JS\base.js" />
     <Content Include="Pages\Base.aspx" />
+    <Content Include="Pages\Search.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.css" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -224,6 +225,13 @@
     </Compile>
     <Compile Include="Pages\Base.aspx.designer.cs">
       <DependentUpon>Base.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
